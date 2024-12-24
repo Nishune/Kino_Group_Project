@@ -2,7 +2,17 @@
 @use './pages/index/index.scss';
 @use './pages/kids/kids.scss';
 @use './pages/about/about.scss';
+@use './pages/index/header.scss';
 
 * {
   font-family: 'Poppins', sans-serif;
+  max-width: 100%;
+}
+html {
+  background-color: $background-color;
+  color: $text-color-main;
+}
+body {
+  padding: 0;
+  margin: 0;
 }
